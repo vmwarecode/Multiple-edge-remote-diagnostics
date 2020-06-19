@@ -1,0 +1,354 @@
+.vce-result-tbl {
+    display: table;
+    margin-top: 13px
+}
+
+.vce-result-tbl:first-child {
+    margin-top: 0
+}
+
+.vce-result-tbl .vce-result-header:first-child {
+    margin-top: 0
+}
+
+.vce-result-tbl .vce-result-header .vce-result-header-row {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.vce-result-tbl .vce-result-tbl.vce-key-value-result .vce-result-data-row:nth-child(odd) {
+    background: #fff
+}
+
+.vce-result-tbl .vce-result-header-row {
+    font-weight: 700;
+    padding: 3px 11px;
+    background: #e8e8e8;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodâ€¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,#e8e8e8 0,#c5c5c5 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#e8e8e8),color-stop(100%,#c5c5c5));
+    background: -webkit-linear-gradient(top,#e8e8e8 0,#c5c5c5 100%);
+    background: -o-linear-gradient(top,#e8e8e8 0,#c5c5c5 100%);
+    background: -ms-linear-gradient(top,#e8e8e8 0,#c5c5c5 100%);
+    background: linear-gradient(to bottom,#e8e8e8 0,#c5c5c5 100%)
+}
+
+.vce-result-tbl .vce-result-data-row {
+    padding: 3px 11px 2px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.vce-result-tbl .vce-result-data-row:nth-child(even) {
+    background-color: #fff
+}
+
+.vce-result-tbl .vce-result-data-row:nth-child(odd) {
+    background-color: #f5f5f5
+}
+
+.vce-result-tbl .vce-result-data-row:hover {
+    background-color: #7b7b7b;
+    color: #fff
+}
+
+.vce-result-tbl .vce-result-data-row.EMPTY {
+    background-color: #fff;
+    color: #999
+}
+
+.vce-result-tbl .vce-result-data-row.EMPTY:hover {
+    background-color: #fcfcfc;
+    color: #000
+}
+
+.vce-result-tbl .vce-result-header-cell {
+    display: inline-block;
+    min-width: 100px;
+    padding: 0 9px 0 0;
+    border-bottom: 1px solid transparent;
+    vertical-align: top
+}
+
+.vce-result-tbl .path-result-header-cell {
+    min-width: 1px;
+    padding: 0 8px 0 0;
+    display: inline-block
+}
+
+.vce-result-tbl .path-result-header-cell .desc {
+    color: #666
+}
+
+.vce-result-tbl .flow-result-header-cell {
+    min-width: 1px;
+    padding: 0 8px 0 0;
+    display: inline-block;
+    white-space: normal
+}
+
+.vce-result-tbl .flow-result-header-cell .desc {
+    color: #666
+}
+
+.vce-result-tbl .vce-result-data-cell {
+    display: inline-block;
+    min-width: 100px;
+    padding: 0 9px 0 0;
+    border-bottom: 1px solid transparent;
+    vertical-align: top;
+    white-space: normal
+}
+
+.vce-result-tbl .path-result-data-cell {
+    min-width: 1px;
+    padding: 0 8px 0 0;
+    vertical-align: top;
+    display: inline-block;
+    white-space: normal
+}
+
+.vce-result-tbl .flow-result-data-cell {
+    min-width: 1px;
+    padding: 0 8px 0 0;
+    vertical-align: top;
+    display: inline-block;
+    white-space: normal
+}
+
+.vce-result-tbl .result-name {
+    min-width: 100px
+}
+
+.vce-result-tbl .result-ipaddr {
+    min-width: 80px
+}
+
+.vce-result-tbl .result-macaddr {
+    min-width: 110px
+}
+
+.vce-result-tbl .result-boolean {
+    min-width: 50px
+}
+
+.vce-result-tbl .result-str-xs {
+    min-width: 50
+}
+
+.vce-result-tbl .result-str-s {
+    min-width: 75px
+}
+
+.vce-result-tbl .result-str-m {
+    min-width: 100px
+}
+
+.vce-result-tbl .result-str-l {
+    min-width: 125px
+}
+
+.vce-result-tbl .result-str-xl {
+    min-width: 150px
+}
+
+.vce-result-tbl.arp-result .arp-mac {
+    min-width: 140px
+}
+
+.vce-result-tbl.edge-clients-result {
+    width: 800px
+}
+
+.vce-result-tbl.edge-clients-result .clients-ipaddr {
+    min-width: 100px
+}
+
+.vce-result-tbl.edge-clients-result .clients-macaddr {
+    min-width: 110px
+}
+
+.vce-result-tbl.edge-clients-result .clients-hostname {
+    min-width: 100px;
+    max-width: 100px
+}
+
+.vce-result-tbl.edge-clients-result .clients-wifi {
+    min-width: 230px;
+    max-width: 230px;
+    padding-right: 0
+}
+
+.vce-result-tbl.route-result {
+    width: 800px
+}
+
+.vce-result-tbl.route-result .route-name {
+    width: 250px
+}
+
+.vce-result-tbl.route-result .route-cost {
+    min-width: 50px;
+    max-width: 50px;
+    text-align: right;
+    margin-right: 8px
+}
+
+.vce-result-tbl.route-result .route-reachable {
+    min-width: 50px;
+    max-width: 50px
+}
+
+.vce-result-tbl.path-result {
+    width: 800px
+}
+
+.vce-result-tbl.path-result .path-link {
+    width: 80px
+}
+
+.vce-result-tbl.path-result .path-local-ip {
+    width: 75px
+}
+
+.vce-result-tbl.path-result .path-remote-ip {
+    width: 75px
+}
+
+.vce-result-tbl.path-result .path-state {
+    width: 140px
+}
+
+.vce-result-tbl.path-result .path-vpn-state {
+    width: 50px
+}
+
+.vce-result-tbl.path-result .path-bandwidth {
+    width: 85px;
+    display: inline-block
+}
+
+.vce-result-tbl.path-result .path-latency {
+    width: 80px;
+    display: inline-block
+}
+
+.vce-result-tbl.path-result .path-jitter {
+    width: 60px;
+    display: inline-block
+}
+
+.vce-result-tbl.path-result .path-loss {
+    width: 55px;
+    display: inline-block
+}
+
+.vce-result-tbl.path-result .path-bytes {
+    width: 58px;
+    display: inline-block
+}
+
+.vce-result-tbl.path-result .path-cos-id {
+    width: 60px;
+    display: inline-block
+}
+
+.vce-result-tbl.path-result .path-cos-precedence {
+    width: 60px;
+    display: inline-block
+}
+
+.vce-result-tbl.flow-result {
+    width: 925px
+}
+
+.vce-result-tbl.flow-result .flow-src-ip {
+    width: 80px
+}
+
+.vce-result-tbl.flow-result .flow-dst-ip {
+    width: 80px
+}
+
+.vce-result-tbl.flow-result .flow-seg {
+    width: 80px
+}
+
+.vce-result-tbl.flow-result .flow-protocol {
+    width: 50px
+}
+
+.vce-result-tbl.flow-result .flow-src-port {
+    width: 55px
+}
+
+.vce-result-tbl.flow-result .flow-dst-port {
+    width: 55px
+}
+
+.vce-result-tbl.flow-result .flow-dscp {
+    width: 55px
+}
+
+.vce-result-tbl.flow-result .flow-application {
+    width: 125px
+}
+
+.vce-result-tbl.flow-result .flow-policy {
+    width: 65px
+}
+
+.vce-result-tbl.flow-result .flow-route {
+    width: 125px
+}
+
+.vce-result-tbl.flow-result .biz-policy {
+    width: 145px
+}
+
+.vce-result-tbl.ap-result {
+    width: 800px
+}
+
+.vce-result-tbl.ap-result .ap-ssid {
+    min-width: 110px;
+    max-width: 110px;
+    padding-right: 21px;
+    word-wrap: break-word
+}
+
+.vce-result-tbl.ap-result .ap-bssid {
+    min-width: 95px;
+    max-width: 95px
+}
+
+.vce-result-tbl.ap-result .ap-band {
+    min-width: 50px;
+    text-align: right
+}
+
+.vce-result-tbl.ap-result .ap-mode {
+    min-width: 40px;
+    text-align: center
+}
+
+.vce-result-tbl.ap-result .ap-channel {
+    min-width: 38px;
+    width: 38px;
+    text-align: right
+}
+
+.vce-result-tbl.ap-result .ap-width {
+    min-width: 40px;
+    text-align: left;
+    padding-left: 13px
+}
+
+.vce-result-tbl.ap-result .ap-sigstr {
+    min-width: 56px;
+    text-align: right
+}
+
+.vce-result-tbl.ap-result .ap-sigbars {
+    min-width: 1px;
+    padding-right: 0
+}
